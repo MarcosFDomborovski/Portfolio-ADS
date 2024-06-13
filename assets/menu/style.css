@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+:root{
+    --blue-color: #243444;
+    --red-color: #EC0444;
+    --grey-color: #FBFBFB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+header{
+    background-color: var(--grey-color);
+    height: 5rem;
+    width: 100%;
+    padding: 0 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--blue-color);
+    position: sticky;
+    top: 0;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+header .logo{
+    width: 10rem;
+    cursor: pointer;
+}
+
+header .right-items{
+    display: flex;
+    align-items: center;
+}
+
+.menu-hamburguer{
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.menu-hamburguer:hover{
+    opacity: .7;
+}
+
+.menu-hamburguer .menu-line{
+    background-color: var(--blue-color);
+    width: 2.5rem;
+    height: 2px;
+}
+
+.align-menu{
+    justify-content: center;
+}
+
+.rotate-line1{
+    transform: rotate(45deg);
+}
+
+.hide-line2{
+    display: none;
+}
+
+.rotate-line3{
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+
+.hidden-menu{
+    position: fixed;
+    right: -100%;
+    top: 5rem;
+    width: 50%;
+    height: 92%;
+    text-align: center;
+    background-color: var(--grey-color);
+    transition: .3s;
+}
+
+.show-menu{
+    right: 0;
+}
+
+.hidden-menu ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.hidden-menu ul li a{
+    text-decoration: none;
+    transition: .3s;
+    color: var(--blue-color);
+}
+
+.hidden-menu .active{
+    color: var(--red-color);
+}
+
+.hidden-menu ul li a:hover{
+    opacity: .7;
+}
+
+main{
+    min-height: 90rem;
+}
+
+footer{
+    background-color: var(--blue-color);
+    width: 100%;
+    padding: 3rem 4rem;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 2rem;
+    display: flex;
+    gap: 3rem;
+    align-items: top;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+footer ul li .active{
+    color: var(--red-color);
+}
+
+footer ul li a:hover{
+    opacity: .7;
+}
+
+footer .contact div, .location div{
+    position: relative;
+}
+
+footer img{
+    position: absolute;
+    width: 18px;
+    left: -2rem;
+    top: .5rem;
+}
+
+footer .copyright{
+    align-self: flex-end;
+}
+
+@media (max-width: 1400px){
+    footer{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1000px){
+    header{
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 990px){
+    header .hidden-menu{
+        width: 100%;
+    }
+}
