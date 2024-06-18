@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#titulo {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.grid-colegiados {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  padding: 70px;
+  box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.68);
+  border-radius: 10px;
+}
