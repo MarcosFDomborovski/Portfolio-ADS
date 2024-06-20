@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .container, .section-reverse {
+        flex-direction: column; /* Alinha os elementos verticalmente */
+    }
+
+    .section-reverse img {
+        margin-left: 0; /* Remove a margem esquerda nas imagens */
+        margin-top: 20px; /* Adiciona espaço entre a imagem e o texto */
+    }
+
+    .info-metodologia-ativa, .info-trabalho {
+        padding-left: 0; /* Remove o recuo à esquerda do texto */
+    }
+
+    .titulo-metodologia-ativa {
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-top: 5rem;
+        color: #243444;
+        font-weight: bolder;
+    }
+
+    
+}

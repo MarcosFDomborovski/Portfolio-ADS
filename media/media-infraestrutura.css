@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+    .container, .section-reverse {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .section, .text-section, .section-reverse .texto {
+        text-align: center;
+    }
+
+    .logo-bpk {
+        margin-left: 0;
+    }
+
+    .section-reverse img {
+        margin: 20px 0 0 0;
+    }
+
+    .info-faculdade, .info-salas {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .titulo-infraestrutura, .titulo-faculdade, .titulo-salas {
+        font-size: 1.2rem;
+    }
+
+    .img-5estrelas, .logo-bpk {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container, .section-reverse {
+        padding: 5px;
+    }
+}

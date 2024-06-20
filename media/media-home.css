@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+    .container, .section-reverse {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .section, .text-section, .section-reverse .texto {
+        text-align: center;
+    }
+
+    .logo-bpk {
+        margin-left: 0;
+    }
+
+    .section-reverse img {
+        margin: 20px 0 0 0;
+    }
+
+    .info-curso, .info-historia {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .titulo-materia, .nota-mec, .titulo-historia {
+        font-size: 1.2rem;
+    }
+
+    .img-5estrelas, .logo-bpk {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .logo-bpk {
+        margin-left: 20px;
+    }
+
+    .container, .section-reverse {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+    .container, .section-reverse {
+        flex-direction: column; /* Alinha os elementos verticalmente */
+        padding: 10px;
+    }
+
+    .text-section, .section-reverse .texto {
+        margin-left: 0; /* Remove a margem esquerda */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .section img, .section-reverse img {
+        margin-top: 10px;
+        margin-left: 0; /* Remove a margem esquerda */
+    }
+
+    .titulo-extenções, .titulo-mentorias, .titulo-vista {
+        margin-top: 1rem;
+    }
+
+    .info-mentorias, .info-visita {
+        font-size: 14px;
+        text-align: justify;
+    }
+}

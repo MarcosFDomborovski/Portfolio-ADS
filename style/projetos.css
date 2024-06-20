@@ -1,0 +1,65 @@
+.sections{
+    margin-left: 10%;
+    margin-top: 5rem;
+    color: #ec0444;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre os cards */
+    margin: 4rem 10% 0 10%; /* Margem ao redor do container */
+    margin-bottom: 5rem;
+
+}
+
+.card {
+    flex: 0 1 calc(33.5% - 10px); /* Ajuste na largura dos cards para acomodar a margem */
+    padding: 10px; /* Espaçamento interno dos cards */
+    box-sizing: border-box;
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin-bottom: 20px; /* Espaçamento padrão para baixo entre os cards */
+}
+
+.card h3 {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #243444;
+}
+
+.custom-list {
+    list-style: none; /* Remove o estilo padrão da lista */
+    padding-left: 20px; /* Espaço para a bolinha */
+}
+
+.custom-list li {
+    padding-left: 15px; /* Espaço para a bolinha */
+    position: relative; /* Posicionamento relativo para a bolinha */
+    margin-bottom: 10px; /* Espaçamento para baixo entre os itens da lista */
+}
+
+.custom-list li::before {
+    content: ''; /* Conteúdo vazio para a bolinha */
+    position: absolute; /* Posicionamento absoluto */
+    left: -15px; /* Ajuste na posição horizontal da bolinha */
+    top: 50%; /* Centralizado verticalmente */
+    transform: translateY(-50%); /* Ajuste fino da posição vertical */
+    width: 10px; /* Largura da bolinha */
+    height: 10px; /* Altura da bolinha */
+    background-color: black; /* Cor da bolinha */
+    border-radius: 50%; /* Torna a bolinha redonda */
+}
+
+.custom-list li::before {
+    content: ''; /* Conteúdo vazio para a bolinha */
+    position: absolute; /* Posicionamento absoluto */
+    transform: translateY(-75%); /* Ajuste fino da posição vertical */
+    width: 5px; /* Largura da bolinha mais fina */
+    height: 5px; /* Altura da bolinha */
+    background-color: #292929; /* Cor da bolinha (azul, por exemplo) */
+}
+
+main {
+    min-height: auto;
+}

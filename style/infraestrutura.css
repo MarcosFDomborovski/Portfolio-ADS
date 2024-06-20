@@ -1,0 +1,95 @@
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 2.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section {
+    flex: 1;
+    text-align: center;
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.text-section {
+    flex: 1;
+    text-align: left;
+}
+.titulo-infraestrutura{
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    color: #ec0444;
+    font-weight: bolder;
+}
+.titulo-faculdade{
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+    color: #243444;
+    font-weight: bolder;
+}
+.info-faculdade {
+    padding-left: 20px;
+    text-align: justify;
+    word-spacing: 3px;
+    font-size: 16.5px;
+}
+.section-reverse {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 2.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #243444; /* Fundo diferente */
+    color: #ffffff; /* Cor do texto */
+}
+.section-reverse .texto {
+    flex: 1;
+    text-align: left;
+}
+.section-reverse .titulo {
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.section-reverse img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.titulo-salas{
+    text-align: center;
+    word-spacing: 3px;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.info-salas{
+    word-spacing: 3px;
+    font-size: 16.5;
+}
+
+.img-infra{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.img-salas{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
