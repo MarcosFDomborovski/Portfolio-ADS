@@ -19,6 +19,7 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+    border-radius: 15px;
 }
 .text-section {
     flex: 1;
@@ -74,20 +75,71 @@ body {
     padding-bottom: 1rem;
     margin-top: 2rem;
 }
-
 .info-trabalho{
     word-spacing: 3px;
     font-size: 16.5;
+    text-align: justify;
 }
-
-.img-metodologia{
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: auto;
+.sequecia {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 2.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sequecia {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 2.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff; /* Fundo diferente */
+    color: #243444; /* Cor do texto */
+}
+.sequecia .texto {
+    flex: 1;
+    text-align: left;
+}
+.sequecia .titulo {
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.sequecia img {
+    max-width: 100%;
     height: auto;
-    align-items: center;
+    margin-left: 20px;
 }
 
+.titulo-p-reais{
+    text-align: center;
+    word-spacing: 3px;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    margin-left: 800px;
+    color: #243444;
+}
+.info-p-reais{
+    word-spacing: 3px;
+    font-size: 16.5;
+    text-align: justify;
+    margin-left: 950px;
+    width: 850px;
+    margin-top: 10px;
+}
+.text {
+    flex: 1;
+    text-align: right;
+}
+.img-p-reais{
+    max-width: 100%;
+    height: auto;
+    margin-top: -220px;
+    border-radius: 15px;
+    margin-right: 1100px;
+}
 .img-trabalho{
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
