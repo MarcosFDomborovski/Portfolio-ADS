@@ -1,5 +1,5 @@
 .sections {
-    margin-left: 10%;
+    margin-bottom: 40px;
     margin-top: 5rem;
     color: #ec0444;
 }
@@ -8,7 +8,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px; /* Espaço entre os cards */
-    margin: 4rem 10% 0 10%; /* Margem ao redor do container */
     margin-bottom: 5rem;
 }
 

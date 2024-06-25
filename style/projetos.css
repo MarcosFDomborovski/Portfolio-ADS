@@ -1,14 +1,17 @@
+body {
+    padding:0 !important;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 .sections{
-    margin-left: 10%;
     margin-top: 5rem;
     color: #ec0444;
 }
 
 .card-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Espaço entre os cards */
-    margin: 4rem 10% 0 10%; /* Margem ao redor do container */
+    width: 100% !important;
     margin-bottom: 5rem;
 
 }
@@ -82,16 +85,16 @@ main {
     background-color:#243444 ; /* Fundo diferente */
     color: #ffffff; /* Cor do texto */
 }
-.sequecia .texto {
+.section .texto {
     flex: 1;
     text-align: left;
 }
-.sequecia .titulo {
+.section .titulo {
     color: #ffffff;
     font-weight: bolder;
     margin-bottom: 10px;
 }
-.sequecia img {
+.section img {
     max-width: 100%;
     height: auto;
     margin-left: 20px;
