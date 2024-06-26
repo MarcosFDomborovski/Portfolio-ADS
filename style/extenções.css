@@ -69,6 +69,31 @@ body {
     padding-bottom: 1rem;
     margin-top: 2rem;
 }
+.titulo-visita{
+    text-align: center;
+    word-spacing: 3px;
+    padding-bottom: 1rem;
+    margin-top: 2rem;  
+}
+
+.titulo-iniciacao{ 
+    text-align: right;
+    word-spacing: 3px;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    padding-right: 18%;
+    padding-top: 1%;
+
+}
+
+.titulo-atletica{
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    color: #243444;
+    font-weight: bolder;
+ 
+}
 
 .info-visita{
     word-spacing: 3px;
@@ -84,11 +109,13 @@ body {
     padding-right: 5%;
 }
 .section-2{
+    text-align: left;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin-bottom: 2.5rem;
-    padding-left: 1000px;
+    padding-top: 10px;
+    margin-bottom: 6rem;
+    padding-left: 840px;
     padding-right: 10px;
     background-color:#ffffff ; /* Fundo diferente */
     color: #243444; /* Cor do texto */
@@ -101,11 +128,21 @@ body {
     color: #ffffff;
     font-weight: bolder;
     margin-bottom: 10px;
+
 }
 .sequecia .img {
     max-width: 100%;
     height: auto;
     margin-left: 20px;
+    margin-top: 100px;
+    
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -450px;
+    border-radius: 15px;
 }
 
 .text {
@@ -120,6 +157,7 @@ body {
     width: auto;
     height: auto;
     align-items: center;
+    
 }
 
 .img-visita{
