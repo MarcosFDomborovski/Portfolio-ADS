@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 
     <!--style-->
     <link rel="stylesheet" href="../../assets/menu/style.css">
-    <link rel="stylesheet" href="../../style/extenções.css">
-    <link rel="stylesheet" href="../../media/media-navbar.css">
-    <link rel="stylesheet" href="../../media/media-extensões.css">
+
+
+    <style>
+        .bg-custom {
+            background-color: #243444;
+        }
+
+        .text-custom {
+            color: #ec0444;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
 
 </head>
+
 <body>
     <header>
         <img class="logo" src="../../assets/images/biopark-logo.svg" alt="">
@@ -34,8 +47,10 @@
                 <div class="hidden-menu" id="hidden-menu">
                     <ul>
                         <li class="nav-item"><a href="../home/index.html">Home</a></li>
-                        <li class="nav-item"><a href="../projetos-disciplinas/projetos.html">Projetos e Disciplinas</a></li>
-                        <li class="nav-item"><a href="../protocolos-regulamentos/protocolos.html">Protocolos e Regulamentos</a></li>
+                        <li class="nav-item"><a href="../projetos-disciplinas/projetos.html">Projetos e Disciplinas</a>
+                        </li>
+                        <li class="nav-item"><a href="../protocolos-regulamentos/protocolos.html">Protocolos e
+                                Regulamentos</a></li>
                         <li class="nav-item"><a class="active" href="./extensoes.html">Extensões</a></li>
                         <li class="nav-item"><a href="../metodologia/metodologia.html">Metodologia</a></li>
                         <li class="nav-item"><a href="../colegiados/colegiados.html">Colegiados</a></li>
@@ -47,75 +62,130 @@
         </div>
     </header>
 
-    <main>
+    <main class="container mx-auto p-4">
 
-        <div class="container">
-            <div class="section">
-                <h2 class="titulo-extensões">EXTENSÕES</h2>
-                <img class="img-extenções" src="../../assets/images/img-extenções.jpg" alt="Imagem">
+
+
+        <!-- Visita Técnica 1 Section -->
+        <section class="p-8 shadow-lg">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 text-black mb-8 md:mb-0">
+                    <h2 class="text-3xl font-bold mb-4">BIBLIOTECA</h2>
+                    <p class="mb-4">
+                        O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um
+                        objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução
+                        setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o
+                        desenvolvimento e a manutenção de sistemas de software de ponta.
+                    </p>
+                    <p>
+                        O diferencial deste curso está em sua estrutura baseada no desenvolvimento de projetos práticos,
+                        que permitem aos alunos aplicar de forma concreta todo o conhecimento adquirido. Ao longo do
+                        curso, você terá a oportunidade de trabalhar em soluções tecnológicas reais para empresas, o que
+                        não apenas reforça suas habilidades técnicas, mas também desenvolve sua capacidade de enfrentar
+                        desafios do mundo profissional.
+                    </p>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img class="rounded-lg shadow-lg" src="../../assets/images/img-salas.png" alt="Biblioteca">
+                </div>
             </div>
-            <div class="text-section">
+        </section>
+        <!-- Mentorias Section -->
+        <section class="bg-custom p-8 shadow-lg">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 text-white mb-8 md:mb-0">
+                    <h2 class="text-3xl font-bold mb-4">LABORATÓRIO</h2>
+                    <p class="mb-4">
+                        Nossa história começou há mais de 40 anos com Carmen e Luiz Donaduzzi, fundadores da
+                        Prati-Donaduzzi, a maior produtora de medicamentos genéricos do Brasil. Movidos pela paixão pela
+                        inovação, eles realizaram o sonho de criar o Biopark em 2016, um parque tecnológico que integra
+                        educação, pesquisa e negócios, impulsionando o crescimento de Toledo e da Região Oeste do
+                        Paraná.
+                    </p>
+                    <p>
+                        Localizado em mais de 5 milhões de m², o Biopark inclui áreas residenciais, comerciais e
+                        industriais, oferecendo um ambiente único focado no conhecimento e na troca de experiências. Com
+                        objetivos bem definidos, o Biopark se destaca como um local de excelência para morar, estudar,
+                        divertir-se e fazer negócios. Venha fazer parte desse ecossistema vibrante e explore as
+                        oportunidades que o Biopark oferece!
+                    </p>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img class="rounded-lg shadow-lg" src="../../assets/images/img-salas.png" alt="Laboratório">
+                </div>
+            </div>
+        </section>
+        <!-- Iniciação Científica Section -->
+       
 
-                <h2 class="titulo-mentorias">MENTORIAS</h2>
-
-                <p class="info-mentorias">O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta.
-                O diferencial deste curso está em sua estrutura baseada no desenvolvimento de projetos práticos, que permitem aos alunos aplicar de forma concreta todo o conhecimento adquirido. Ao longo do curso, você terá a oportunidade de trabalhar em soluções tecnológicas reais para empresas, o que não apenas reforça suas habilidades técnicas, mas também desenvolve sua capacidade de enfrentar desafios do mundo profissional
-            
-                O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta.
+        <!-- Visita Técnica 2 Section -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6 flex flex-col md:flex-row-reverse items-center">
+            <div class="texto md:w-2/3">
+                <h2 class="titulo-vista text-3xl font-bold mb-4">VISITA TÉCNICA 2</h2>
+                <p class="info-visita text-lg leading-relaxed">
+                    O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um
+                    objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor
+                    de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e
+                    a manutenção de sistemas de software de ponta. O diferencial deste curso está em sua estrutura
+                    baseada no desenvolvimento de projetos práticos, que permitem aos alunos aplicar de forma concreta
+                    todo o conhecimento adquirido.
                 </p>
+            </div>
+            <div class="md:w-1/3 flex justify-center">
+                <img class="rounded-lg shadow-lg" src="../../assets/images/img-salas.png" alt="Laboratório">
             </div>
         </div>
 
-        
-        <div class="section-reverse">
-            <div class="texto">
-                <h2 class="titulo-vista">VISITA TÉCNICA 1</h2>
-                <p class="info-visita">
-                    O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta. O diferencial deste curso está em sua estrutura baseada no desenvolvimento de projetos práticos, que permitem aos alunos aplicar de forma concreta todo o conhecimento adquirido.
-                    O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta. O diferencial deste curso está em sua estrutura baseada no desenvolvimento de projetos práticos, que permitem aos alunos aplicar de forma concreta todo o conhecimento adquirido.
-                
-                </p>
-            </div>
-            <img class="img-visita" src="../../assets/images/img-metodologia.jpg">
-        </div>
-        <div class="card-container">
-          
-            <div class="sequencia">
-                <div class="text">
-                <h2 class="titulo-iniciacao">INICIAÇÃO CIENTÍFICA</h2>
-                
-                <p class="section-2">Nossa história começou há mais de 40 anos com Carmen e Luiz Donaduzzi, fundadores da Prati-Donaduzzi, a maior produtora de medicamentos genéricos do Brasil. Movidos pela paixão pela inovação, eles realizaram o sonho de criar o Biopark em 2016, um parque tecnológico que integra educação, pesquisa e negócios, impulsionando o crescimento de Toledo e da Região Oeste do Paraná.
-                    Localizado em mais de 5 milhões de m², o Biopark inclui áreas residenciais, comerciais e industriais, oferecendo um ambiente único focado no conhecimento e na troca de experiências. Com objetivos bem definidos, o Biopark se destaca como um local de excelência para morar, estudar, divertir-se e fazer negócios. Venha fazer parte desse ecossistema vibrante e explore as oportunidades que o Biopark oferece!       
-                </p>
-                <img class="img" src="../../assets/images/img-extenções.jpg">
-            </div>
-            <div class="section-reverse">
-                <div class="texto">
-                    <h2 class="titulo-visita">VISITA TÉCNICA 2</h2>
-                    <p class="info-visita">
-                        O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta. O diferencial deste curso está em sua estrutura baseada no desenvolvimento de projetos práticos, que permitem aos alunos aplicar de forma concreta todo o conhecimento adquirido.
-                        O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta. O diferencial deste curso está em sua estrutura baseada no desenvolvimento de projetos práticos, que permitem aos alunos aplicar de forma concreta todo o conhecimento adquirido.
-                    
+        <section class="bg-custom p-8 shadow-lg">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 text-white mb-8 md:mb-0">
+                    <h2 class="text-3xl font-bold mb-4">LABORATÓRIO</h2>
+                    <p class="mb-4">
+                        Nossa história começou há mais de 40 anos com Carmen e Luiz Donaduzzi, fundadores da
+                        Prati-Donaduzzi, a maior produtora de medicamentos genéricos do Brasil. Movidos pela paixão pela
+                        inovação, eles realizaram o sonho de criar o Biopark em 2016, um parque tecnológico que integra
+                        educação, pesquisa e negócios, impulsionando o crescimento de Toledo e da Região Oeste do
+                        Paraná.
+                    </p>
+                    <p>
+                        Localizado em mais de 5 milhões de m², o Biopark inclui áreas residenciais, comerciais e
+                        industriais, oferecendo um ambiente único focado no conhecimento e na troca de experiências. Com
+                        objetivos bem definidos, o Biopark se destaca como um local de excelência para morar, estudar,
+                        divertir-se e fazer negócios. Venha fazer parte desse ecossistema vibrante e explore as
+                        oportunidades que o Biopark oferece!
                     </p>
                 </div>
-                <img class="img-visita" src="../../assets/images/img-metodologia.jpg">
+                <div class="md:w-1/3 flex justify-center">
+                    <img class="rounded-lg shadow-lg" src="../../assets/images/img-salas.png" alt="Laboratório">
+                </div>
             </div>
-            <div class="container">
-                <div class="section">
-                    <img class="img-extenções" src="../../assets/images/img-extenções.jpg" alt="Imagem">
-                </div>
-                <div class="text-section">
-    
-                    <h2 class="titulo-atletica">ATLÉTICA</h2>
-    
-                    <p class="info-mentorias">O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta.
-                    O diferencial deste curso está em sua estrutura baseada no desenvolvimento de projetos práticos, que permitem aos alunos aplicar de forma concreta todo o conhecimento adquirido. Ao longo do curso, você terá a oportunidade de trabalhar em soluções tecnológicas reais para empresas, o que não apenas reforça suas habilidades técnicas, mas também desenvolve sua capacidade de enfrentar desafios do mundo profissional
-                
-                    O curso de Análise e Desenvolvimento de Sistemas (ADS) do Biopark Educação é projetado com um objetivo claro e ambicioso: preparar você para se destacar no dinâmico e em constante evolução setor de tecnologia da informação. Nosso foco abrange desde a análise e o projeto até o desenvolvimento e a manutenção de sistemas de software de ponta.
-                    </p>
-                </div>
-      </main>
+        </section>
 
+        <!-- Atlética Section -->
+        <section class="p-8 shadow-lg">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 text-black mb-8 md:mb-0">
+                    <h2 class="text-3xl font-bold mb-4">LABORATÓRIO</h2>
+                    <p class="mb-4">
+                        Nossa história começou há mais de 40 anos com Carmen e Luiz Donaduzzi, fundadores da
+                        Prati-Donaduzzi, a maior produtora de medicamentos genéricos do Brasil. Movidos pela paixão pela
+                        inovação, eles realizaram o sonho de criar o Biopark em 2016, um parque tecnológico que integra
+                        educação, pesquisa e negócios, impulsionando o crescimento de Toledo e da Região Oeste do
+                        Paraná.
+                    </p>
+                    <p>
+                        Localizado em mais de 5 milhões de m², o Biopark inclui áreas residenciais, comerciais e
+                        industriais, oferecendo um ambiente único focado no conhecimento e na troca de experiências. Com
+                        objetivos bem definidos, o Biopark se destaca como um local de excelência para morar, estudar,
+                        divertir-se e fazer negócios. Venha fazer parte desse ecossistema vibrante e explore as
+                        oportunidades que o Biopark oferece!
+                    </p>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img class="rounded-lg shadow-lg" src="../../assets/images/img-salas.png" alt="Laboratório">
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -123,7 +193,8 @@
             <ul>
                 <li class="nav-item"><a href="../home/index.html">Home</a></li>
                 <li class="nav-item"><a href="../projetos-disciplinas/projetos.html">Projetos e Disciplinas</a></li>
-                <li class="nav-item"><a href="../protocolos-regulamentos/protocolos.html">Protocolos e Regulamentos</a></li>
+                <li class="nav-item"><a href="../protocolos-regulamentos/protocolos.html">Protocolos e Regulamentos</a>
+                </li>
                 <li class="nav-item"><a class="active" href="./extensoes.html">Extensões</a></li>
                 <li class="nav-item"><a href="../metodologia/metodologia.html">Metodologia</a></li>
                 <li class="nav-item"><a href="../colegiados/colegiados.html">Colegiados</a></li>
@@ -160,4 +231,5 @@
     </footer>
     <script src="../../assets/menu/script.js"></script>
 </body>
+
 </html>

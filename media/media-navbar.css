@@ -1,13 +1,6 @@
-@media (max-width: 600px){
-
-    .menu-hamburguer {
-        height: 2em;
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
-    }
-
+@media (max-width: 280px){
+#texto-menu{
+    display: none;
+}
 
 }
