@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-protocolo {
+  display: flex;
+  min-height: 75rem;
+  background-color: #fbfbfb;
+  justify-content: center;
+}
+
+#titulo {
+  color: var(--red-color);
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+  left: 35.7%;
+  height: 5vh;
+}
+
+.elemento-item-protocolo {
+  border: 1px var(--grey-color);
+  width: 75vh;
+  height: 6.5vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 10vh;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 3px 20px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 3px 20px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 3px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.container-itens-protocolo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56vh;
+  height: 3vh;
+}
+.container-itens-protocolo-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.lista-itens-protocolo-1,
+.lista-itens-protocolo-2 {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: -2rem;
+  gap: 20px;
+  margin-right: 10vh;
+  flex-direction: column;
+}
+
+.elemento-texto-protocolo {
+  margin-left: 12px;
+}
+
+.download-icon {
+  position: relative;
+  width: 5.5vh;
+  height: 5.5vh;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.faixa-azul{
+  background-color:var(--blue-color);
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.faixa-branca 
+{
+  border: 1px solid black;
+  width: 100%;
+  height: 13vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#texto-faixa-branca{
+  font-weight: 5500;
+}
+
+#img-bpk
+{
+  width: 450px;
+  height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1520px) {
+  #main-protocolo {
+    min-height: 125rem;
+  }
+  .container-itens-protocolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110vh;
+    height: 3vh;
+    margin-left: 10rem;
+    flex-direction: column;
+  }
+  .lista-itens-protocolo-2 {
+    margin-top: 104vh;
+  }
+
+  @media (max-width: 1000px){
+    footer{
+      width: 10%;
+    }
+  }
+  @media (max-width: 850px){
+    .elemento-item-protocolo{
+      width: 60vh;
+    }
+    #titulo
+    {
+      width: 500px;
+    }
+  }
+  @media (max-width: 456px) {
+    .elemento-item-protocolo{
+      width: 50vh;
+    }
+    
+  }
+  @media (max-width:348px) {
+    .elemento-item-protocolo{
+      width: 35vh;
+    }
+    .elemento-texto-protocolo
+    {
+      font-size: 17px;
+    }
+    
+  }
+
+}

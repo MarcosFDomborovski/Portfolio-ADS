@@ -187,6 +187,6 @@ footer .copyright{
 
 @media (max-width: 990px){
     header .hidden-menu{
-        width: 100%;
+        width: 10%;
     }
 }
