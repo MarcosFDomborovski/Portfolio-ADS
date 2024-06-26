@@ -5,23 +5,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio ADS - Protocolos e Regulamentos</title>
-
   <!--fonte-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
-
   <!--style-->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="../../assets/menu/style.css" />
   <link rel="stylesheet" href="../../media/media-navbar.css" />
+  <style>
+    .bg-custom {
+      background-color: #243444;
+    }
+
+    .text-custom {
+      color: #ec0444;
+    }
+  </style>
 </head>
 
-<body>
+<body class="bg-gray-100">
   <header>
     <img class="logo" src="../../assets/images/biopark-logo.svg" alt="" />
     <div class="right-items">
-      <span>Portfólio ADS</span>
+      <span id="text-menu">Portfólio ADS</span>
       <nav>
         <div class="menu-hamburguer" id="menu-hamburguer">
           <div class="menu-line line1"></div>
@@ -30,7 +38,9 @@
         </div>
         <div class="hidden-menu" id="hidden-menu">
           <ul>
-            <li class="nav-item"><a href="../home/index.html">Home</a></li>
+            <li class="nav-item">
+              <a href="../home/index.html">Home</a>
+            </li>
             <li class="nav-item">
               <a href="../projetos-disciplinas/projetos.html">Projetos e Disciplinas</a>
             </li>
@@ -57,127 +67,97 @@
       </nav>
     </div>
   </header>
-
-  <main id="main-protocolo">
-    <h1 id="titulo">Protocolos e Regulamentos</h1>
-    <div class="container-itens-protocolo">
-      <ul class="lista-itens-protocolo-1">
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Regulamento_Clube_de_Ciencias_-_Beneficio_para_Colaborador_do_Biopark_Educacao.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-            </a>
-          <span class="elemento-texto-protocolo">
-            Clube de Ciências - Benefício para Colaborador Biopark Educação
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Regulamento_Clube_de_Ciencias_-_Beneficio_para_Colaborador_do_Parque_Cientifico_Biopark.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Clube de Ciências - Benefício para Colaborador do Parque
-            Científico BPK
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Vestibular-07-de-julho-2024.2.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Vestibular 07 de julho - 2024.2
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Vestibular-09-de-junho-2024.2.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Vestibular 09 de junho - 2024.2
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Enem-2024.2.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Enem - 2024.2 </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Transferencia-Externa-2024.2.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Transferência Externa - 2024.2
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Diplomados-2024.2.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Diplomados - 2024.2 </span>
-        </li>
-      </ul>
-      
-      <ul class="container-itens-protocolo-2">
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Regulamento-Empreende-Mulher-2024.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Empreende Mulher 2024 </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Regulamento_Game_2024.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">1º Game Acadêmico - Mentes em Movimento
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/RESULTADO-FINAL-DA-SELECAO-DE-PROJETOS-2024.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Resultado Final - Edital para Projetos de Pesquisa Científica
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Regulamento-Bolsista-Empresas-residentes-e-Investidores.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Regulamento Bolsista Empresas residentes e Investidores
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Empregabilidade-2024.2.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Empregabilidade - 2024.2
-          </span>
-        </li>
-        <li class="elemento-item-protocolo">
-          <a download href="../../assets/arquivos/Regulamento-Connect-de-Vendas-2024.pdf"
-            target="_blank">
-            <img src="../../assets/icons/download.png" alt="download-button" class="download-icon" />
-          </a>
-          <span class="elemento-texto-protocolo">Regulamento - Connect de Vendas 2024
-          </span>
-        </li>
-      </ul>
-      </ul>
+  <div class="flex justify-center weight-600">
+    <h1 class="mt-5 text-3xl font-semibold text-custom">Protocolos e Regulamentos</h1>
+  </div>
+  <div class="max-w-7xl mx-auto mt-5 mb-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- coluna 1 -->
+      <div>
+        <a href="../../assets/arquivos/Regulamento_Clube_de_Ciencias_-_Beneficio_para_Colaborador_do_Biopark_Educacao.pdf"
+          download
+          class="flex items-center justify-between bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Regulamento - Clube de Ciências - Benefício para Colaborador Biopark Educação
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Regulamento_Clube_de_Ciencias_-_Beneficio_para_Colaborador_do_Parque_Cientifico_Biopark.pdf"
+          download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Clube de Ciências - Benefício para Colaborador do Parque Científico Biopark
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Vestibular-07-de-julho-2024.2.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Vestibular 07 de julho - 2024.2
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Vestibular-09-de-junho-2024.2.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Vestibular 09 de junho - 2024.2
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Enem-2024.2.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Enem - 2024.2
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Transferencia-Externa-2024.2.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Transferência Externa - 2024.2
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Diplomados-2024.2.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Diplomados - 2024.2
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+      </div>
+      <!-- coluna 2 -->
+      <div>
+        <a href="../../assets/arquivos/RESULTADO-FINAL-DA-SELECAO-DE-PROJETOS-2024.pdf" download
+          class="flex items-center justify-between bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Resultado Final - Edital para Projetos de Pesquisa Científica
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Regulamento-Bolsista-Empresas-residentes-e-Investidores.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Regulamento Bolsista Empresas residentes e Investidores
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Empregabilidade-2024.2.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Empregabilidade - 2024.2
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Regulamento-Connect-de-Vendas-2024.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Regulamento - Connect de Vendas 2024
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Regulamento-Empreende-Mulher-2024.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          Empreende Mulher 2024
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+        <a href="../../assets/arquivos/Regulamento_Game_2024.pdf" download
+          class="flex items-center justify-between bg-white p-4 mt-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          1º Game Acadêmico - Mentes em Movimento
+          <img src="../../assets/icons/download.png" alt="Download" class="w-8 h-8 ml-4">
+        </a>
+      </div>
     </div>
-  </main>
-  <div class="faixa-azul">
-    <img src="../../assets/images/biopark-logo-white.png" alt="img-bpk" id="img-bpk">
   </div>
-  <div class="faixa-branca">
-    <h2 id="texto-faixa-branca">Em caso de dúvidas, entre em contato conosco!</h2>
+
+  <div class="bg-custom flex justify-center items-center p-4">
+    <img src="../../assets/images/biopark-logo-white.png" alt="img-bpk" class="max-w-full h-auto" />
   </div>
+
+  <div class="bg-white text-center py-6">
+    <h2 class="text-xl text-gray-700">
+      Em caso de dúvidas, entre em contato conosco!
+    </h2>
+  </div>
+
 
   <footer>
     <div class="footer-navigation">
@@ -234,6 +214,8 @@
     </div>
   </footer>
   <script src="../../assets/menu/script.js"></script>
+
+</html>
 </body>
 
 </html>
